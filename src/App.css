@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin: 2rem 0;
+  list-style: none;
+}
+
+.jobLi {
+  display: block;
+
+
+
+  margin: 0px;
+  list-style-type: none;
+  font-weight: 800;
+  font-size: medium;
+}
+
+.dateLi {
+  display: block;
+  margin: 0%;
+  color: rgb(7, 3, 110);
+  margin: 0px;
+  list-style-type: none;
+}
+
+.duties {
+  color: blue;
+}
+
+.uLLi {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0%;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.vehicle {
+  margin-bottom: 50px;
+}
+
+.name {
+  margin-top: 50px;
+}
+
+
+.competenceButton {
+  margin: 20px;
+  padding: 20px;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(7, 3, 110);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: aqua;
+}
+
+.competences {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem 0;
+  list-style: none;
+  font-size: large;
+}
+
+.Nuages {
+  margin-bottom: 100px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
