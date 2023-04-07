@@ -177,7 +177,7 @@ const data = [
 
     {
         "id": "129",
-        "competences": ["Autonomie", "Gestion de projets", "Réactivité", "Controle de Qualité", "Curiosité", "Conviviabilité", "Gestion de crise", "Client statisfaction", "Negociation", "Rigueur", "Organisation", "Intégrité"]
+        "competences": ["Autonomie", "Gestion de projets", "Réactivité", "Controle de Qualité", "Curiosité", "Conviviabilité", "Gestion de crise", "Client statisfaction", "Negociation", "Rigueur", "Organisation", "Intégrité", "Javascript", "NodeJs", "React", "HTML", "CSS"]
     },
     {
 

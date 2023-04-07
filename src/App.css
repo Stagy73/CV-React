@@ -183,6 +183,14 @@ body {
   justify-content: flex-end;
 }
 
+img {
+  transition: transform .7s ease-in-out;
+}
+
+img:hover {
+  transform: rotate(360deg);
+}
+
 .info-container {
   font-size: 1.5rem;
   font-weight: 500;
