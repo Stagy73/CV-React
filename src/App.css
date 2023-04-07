@@ -31,6 +31,20 @@ body {
 
 }
 
+@media only screen and (max-width: 515px) {
+  body {
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 713px) {
+  body {
+    background-size: contain;
+  }
+}
+
+
+
 .Experiences {
   border: 1px solid black;
   border-radius: 20px;
