@@ -126,58 +126,58 @@ const data = [
     },
     {
         "id": "116",
-        "autonomie": "autonomie"
+        "autonomie": "Autonomie"
     },
 
     {
         "id": "118",
-        "rigueur": "rigueur"
+        "rigueur": "Rigueur"
     },
     {
         "id": "119",
-        "autonomie": "sens de l'initiative"
+        "autonomie": "Sens de l'initiative"
     },
     {
         "id": "120",
-        "organisation": "sens de l'organisation"
+        "organisation": "Sens de l'organisation"
     },
     {
         "id": "121",
 
-        "satisfaction": "sens de la communication"
+        "satisfaction": "Sens de la communication"
     },
     {
         "id": "122",
-        "negociation": "sens de la negociation"
+        "negociation": "Sens de la negociation"
     },
     {
         "id": "123",
-        "organisation": "sens de la gestion"
+        "organisation": "Sens de la gestion"
     },
     {
         "id": "124",
-        "gestion de crise": "sens de la gestion de crise"
+        "gestion de crise": "Sens de la gestion de crise"
     },
     {
         "id": "125",
-        "gestion de crise": "sens de la gestion de conflit"
+        "gestion de crise": "Sens de la gestion de conflit"
     },
     {
         "id": "126",
-        "gestion de projet": "sens de la gestion de projet"
+        "gestion de projet": "Sens de la gestion de projet"
     },
     {
         "id": "127",
-        "reactivite": "sens de la gestion de temps"
+        "reactivite": "Sens de la gestion de temps"
     },
     {
         "id": "128",
-        "reactivite": "sens de la gestion de stress"
+        "reactivite": "Sens de la gestion de stress"
     },
 
     {
         "id": "129",
-        "competences": ["autonomie", "Gestion de projets", "Réactivité", "Control Qualité", "Curiosité", "Conviviabilité", "Gestion de crise", "Client statisfaction", "Negociation", "Rigueur", "organisation", "Intégrité"]
+        "competences": ["Autonomie", "Gestion de projets", "Réactivité", "Controle de Qualité", "Curiosité", "Conviviabilité", "Gestion de crise", "Client statisfaction", "Negociation", "Rigueur", "Organisation", "Intégrité"]
     },
     {
 

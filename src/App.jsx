@@ -5,7 +5,12 @@ import Competences from './Components/Competences.jsx'
 import Nuages from './Components/Nuages.jsx'
 import Experiences from './Components/Experiences.jsx'
 
+
+
+
 import './App.css'
+
+
 
 function App() {
 
@@ -18,6 +23,7 @@ function App() {
       <Competences />
       <Nuages />
       <Experiences />
+
 
     </div>
   )
