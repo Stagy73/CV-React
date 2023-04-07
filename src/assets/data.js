@@ -60,38 +60,129 @@ const data = [
 
 
     { "12": "Anglais courant 'lu et parlé" },
-    { "project": "Secondlife object ads clicker" },
-    { "project": "vente de livre libre de droit" },
-    { "project": "Dropishipping Amazon ebay" },
-    { "project": "website traffic antidetection project" },
-    { "project": "project de creation de dropshipping cdiscount" },
-    { "nuage": "gestion des clients" },
-    { "nuage": "gestion des stocks" },
-    { "nuage": "gestion des commandes" },
-    { "nuage": "gestion des livraisons" },
-    { "nuage": "gestion des retours" },
-    { "nuage": "gestion des factures" },
-    { "nuage": "gestion des paiements" },
-    { "nuage": "optimisation de la surface de vente" },
-    { "nuage": "optimisation de la surface de stockage" },
-    { "nuage": "optimisation de la surface de travail" },
-    { "nuage": "Visualisation des issues en temps reels et resolution imediate" },
-    { "nuage": "autonomie" },
-    { "nuage": "organisation" },
-    { "nuage": "rigueur" },
-    { "nuage": "sens de l'initiative" },
-    { "nuage": "sens de l'organisation" },
-    { "nuage": "sens de la communication" },
-    { "nuage": "sens de la negociation" },
-    { "nuage": "sens de la gestion" },
-    { "nuage": "sens de la gestion de crise" },
-    { "nuage": "sens de la gestion de conflit" },
-    { "nuage": "sens de la gestion de projet" },
-    { "nuage": "sens de la gestion de temps" },
-    { "nuage": "sens de la gestion de stress" },
+    {
+        "id": "100",
+        "project": "Secondlife object ads clicker"
+    },
+    {
+        "id": "101",
+        "project": "vente de livre libre de droit"
+    },
+    {
+        "id": "102",
+        "project": "Dropishipping Amazon ebay"
+    },
+    {
+        "id": "103",
+        "project": "website traffic antidetection project"
+    },
+    {
+        "id": "104",
+        "project": "project de creation de dropshipping cdiscount"
+    },
+    {
+        "id": "105",
+        "nuage": "gestion des clients"
+    },
+    {
+        "id": "106",
+        "nuage": "gestion des stocks"
+    },
+    {
+        "id": "107",
+        "nuage": "gestion des commandes"
+    },
+    {
+        "id": "108",
+        "nuage": "gestion des livraisons"
+    },
+    {
+        "id": "109",
+        "nuage": "gestion des retours"
+    },
+    {
+        "id": "110",
+        "nuage": "gestion des factures"
+    },
+    {
+        "id": "111",
+        "nuage": "gestion des paiements"
+    },
+    {
+        "id": "112",
+        "nuage": "optimisation de la surface de vente"
+    },
+    {
+        "id": "113",
+        "nuage": "optimisation de la surface de stockage"
+    },
+    {
+        "id": "114",
+        "nuage": "optimisation de la surface de travail"
+    },
+    {
+        "id": "115",
+        "nuage": "Visualisation des issues en temps reels et resolution imediate"
+    },
+    {
+        "id": "116",
+        "autonomie": "autonomie"
+    },
 
-    { "competences": ["Gestion de projets", "Réactivité", "Control Qualité", "Curiosité", "Conviviabilité", "Gestion de crise", "Client statisfaction", "Negociation", "Rigueur", "organisation", "Intégrité"] },
-    { "title": "WEB DEVELOPPEUR & WEB MOBILE" },
+    {
+        "id": "118",
+        "rigueur": "rigueur"
+    },
+    {
+        "id": "119",
+        "autonomie": "sens de l'initiative"
+    },
+    {
+        "id": "120",
+        "organisation": "sens de l'organisation"
+    },
+    {
+        "id": "121",
+
+        "satisfaction": "sens de la communication"
+    },
+    {
+        "id": "122",
+        "negociation": "sens de la negociation"
+    },
+    {
+        "id": "123",
+        "organisation": "sens de la gestion"
+    },
+    {
+        "id": "124",
+        "gestion de crise": "sens de la gestion de crise"
+    },
+    {
+        "id": "125",
+        "gestion de crise": "sens de la gestion de conflit"
+    },
+    {
+        "id": "126",
+        "gestion de projet": "sens de la gestion de projet"
+    },
+    {
+        "id": "127",
+        "reactivite": "sens de la gestion de temps"
+    },
+    {
+        "id": "128",
+        "reactivite": "sens de la gestion de stress"
+    },
+
+    {
+        "id": "129",
+        "competences": ["autonomie", "Gestion de projets", "Réactivité", "Control Qualité", "Curiosité", "Conviviabilité", "Gestion de crise", "Client statisfaction", "Negociation", "Rigueur", "organisation", "Intégrité"]
+    },
+    {
+
+        "title": "WEB DEVELOPPEUR & WEB MOBILE"
+    },
 
 ]
 export default data;
