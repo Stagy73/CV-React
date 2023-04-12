@@ -20,11 +20,11 @@ function Details() {
 
             <div className="email">nils.mehlhorn.fr@gmail.com </div>
             <div className="icone">
-                <img src="/js-file.png" alt="React icon" width="90px" height="90px" />
-                <img src="/atom.png" alt="JavaScript icon" width="90px" height="90px" />
-                <img src="/html-5.png" alt="JavaScript icon" width="90px" height="90px" />
-                <img src="/css.png" alt="JavaScript icon" width="90px" height="90px" />
-                <img src="/node-js.png" alt="JavaScript icon" width="90px" height="90px" />
+                <img className="img4" src="/js-file.png" alt="React icon" width="90px" height="90px" />
+                <img className="img4" src="/atom.png" alt="JavaScript icon" width="90px" height="90px" />
+                <img className="img4" src="/html-5.png" alt="JavaScript icon" width="90px" height="90px" />
+                <img className="img4" src="/css.png" alt="JavaScript icon" width="90px" height="90px" />
+                <img className="img4" src="/node-js.png" alt="JavaScript icon" width="90px" height="90px" />
 
             </div>
 
