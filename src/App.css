@@ -23,12 +23,21 @@
 }
 
 body {
-  background-image: url(./assets/pic1.png);
+  background-image: url(./pic1.png);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
+  animation: scrollBackground 30s linear infinite;
+}
 
+@keyframes scrollBackground {
+  0% {
+    background-position: 0 0;
+  }
 
+  100% {
+    background-position: 0 100%;
+  }
 }
 
 @media only screen and (max-width: 515px) {
@@ -48,6 +57,8 @@ body {
 .Experiences {
   border: 1px solid black;
   border-radius: 20px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
 }
 
 
@@ -86,12 +97,15 @@ body {
 }
 
 .title {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   text-align: center;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  font-style: oblique;
+  position: relative;
 }
+
 
 
 
@@ -126,6 +140,8 @@ body {
   font-size: large;
   border: 1px solid black;
   border-radius: 20px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .Nuages.nuages-text {
@@ -198,24 +214,43 @@ img:hover {
 
 p.french {
   border: 1px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
   border-radius: 15px;
   text-align: center !important;
+  color: rgb(56, 49, 200);
+  margin-top: 50px;
+
 }
 
 p.english {
   border: 1px solid black;
   border-radius: 15px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+
   text-align: center !important;
+  color: rgb(56, 49, 200);
 }
 
 p.trans {
   text-align: center !important;
   font-size: 30px;
   color: #333;
+
   transition: font-size 0.5s ease-in-out;
 }
 
 p.trans:hover {
   font-size: 40px;
   color: #007bff;
+
+}
+
+.mailto {
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+
+  transition: font-size 0.5s ease-in-out;
 }

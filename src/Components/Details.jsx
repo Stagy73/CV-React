@@ -14,7 +14,10 @@ function Details() {
             <div className="english">Anglais courant</div>
             <div className="permit">permit B</div>
             <div className="vehicle">véhiculé</div>
-            <div className="phone">06-19-65-09-78 </div>
+            <a href="tel:0619650978">
+                <div className="phone">06-19-65-09-78</div>
+            </a>
+
             <div className="email">nils.mehlhorn.fr@gmail.com </div>
             <div className="icone">
                 <img src="/js-file.png" alt="React icon" width="90px" height="90px" />

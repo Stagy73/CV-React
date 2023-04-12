@@ -20,12 +20,13 @@ function App() {
     <div className="App">
 
       <Title />
+      <Footer />
+
       <Details />
       <Competences />
       {/*  <Nuages /> */}
 
       <Experiences />
-      <Footer />
 
     </div>
   )
