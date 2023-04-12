@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import data from '../assets/data.js';
-import Nuages from './Nuages'; // add import statement for Nuages component
+/* import Nuages from './Nuages'; // add import statement for Nuages component */
 import 'hover.css/css/hover-min.css';
 
 
