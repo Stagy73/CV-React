@@ -22,8 +22,8 @@ const data = [
         "duties": "(Vendeur sur Ebay et Amazon) Saisie de données / Informatique HTML / Recensement organique des listings / Analyse de données (trafic et ventes)",
     },
     {
-        "job": "Superviseur, serveur, formateur – Pizza Express Plc.  ",
-        "date": "Angleterre 1999-2013",
+        "job": "Superviseur, serveur, formateur – Pizza Express Plc., Angleterre",
+        "date": "1999-2013",
         "duties": " Formation du personnel (hygiène, sécurité, standards) / Encadrement d’équipe / Gestion clientèle (réservations, résolution de plaintes) / Gestion de stock / Service clients",
 
     },
