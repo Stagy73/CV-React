@@ -8,7 +8,7 @@ function Nuages() {
       
       <ul className ="formation">
         {formations.map(item => (
-          <li key={item.id}>{`${item.formation} ${item.project}`}</li>
+          <li  className ="linuage"key={item.id}>{`${item.formation} ${item.project}`}</li>
         ))}
       </ul>
     </div>
