@@ -40,7 +40,7 @@ function Competences({ filterKeyword }) {
         });
 
         return (
-            <div><h1 className='CompTitle "hvr-bounce-in"'>Compétences</h1>
+            <div><h1 className='compT'>Compétences</h1>
                 <div className="competences">{competenceButtons}</div>
 
                 {selectedCompetence && (

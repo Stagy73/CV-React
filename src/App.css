@@ -2,7 +2,34 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  border-style: solid;
+    border-width: 6px;
+  
+      background-image:
+        linear-gradient(to right, #ff8a00, #da1b60),
+        linear-gradient(to bottom, #da1b60, #632d6c),
+        linear-gradient(to left, #632d6c, #1d1f33);
+      border: 20px solid;
+      border-image-slice: 1;
+      border-image-source:
+        linear-gradient(to right, #ff8a00, #da1b60),
+        linear-gradient(to bottom, #da1b60, #632d6c),
+        linear-gradient(to left, #632d6c, #1d1f33);
+    }
 
+
+
+/* Define three different gradients */
+.gradient1 {
+  background: linear-gradient(to right, #FEB692, #EA5455);
+}
+
+.gradient2 {
+  background: linear-gradient(to right, #AA076B, #61045F);
+}
+
+.gradient3 {
+  background: linear-gradient(to right, #7F00FF, #E100FF);
 }
 
 .app {
@@ -28,6 +55,9 @@ body {
   background-repeat: repeat-y;
   background-size: cover;
   animation: scrollBackground 30s linear infinite;
+  border:3px solid black;
+  margin: 50px;
+  padding: 50px;
 }
 
 @keyframes scrollBackground {
@@ -79,13 +109,13 @@ body {
 .dateLi {
   display: block;
   margin: 0%;
-  color: rgb(7, 3, 110);
+  color: black;
   margin: 0px;
   list-style-type: none;
 }
 
 .duties {
-  color: blue;
+  color: black;
 }
 
 .uLLi {
@@ -124,7 +154,7 @@ body {
   color: rgb(12, 12, 16);
 
 
-  background-color: aqua;
+  background-color: rgba(217, 242, 242, 0.986);
   border: 1px solid black;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
@@ -146,8 +176,8 @@ body {
 
 .Nuages.nuages-text {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 30px;
@@ -155,11 +185,7 @@ body {
   height: 100%;
   padding-left: 10px;
   font-weight: 400;
-  color: blue;
-
-
-
-
+  color: black;
   font-size: larger;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: 1px solid black;
@@ -172,7 +198,43 @@ body {
   overflow-wrap: break-word;
   flex-wrap: wrap;
 }
-
+.formation {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  list-style-type: none;
+  font-weight: 800;
+  font-size: medium;
+}
+.titleFormation {
+  font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    font-style: oblique;
+    position: relative;
+}
+.compT{
+  font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    font-style: oblique;
+    position: relative;
+}
+.expeT {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  font-style: oblique;
+  position: relative;
+}
 #text {
   display: flex;
   flex-direction: row;
@@ -218,7 +280,7 @@ p.french {
   border-right: 2px solid black;
   border-radius: 15px;
   text-align: center !important;
-  color: rgb(56, 49, 200);
+  color: black;
   margin-top: 50px;
   box-shadow: #333;
 
@@ -232,27 +294,27 @@ p.english {
   border-right: 2px solid black;
 
   text-align: center !important;
-  color: rgb(56, 49, 200);
+  color: black;
 }
 
 p.trans {
   text-align: center !important;
   font-size: 30px;
-  color: #333;
+  color: black;
 
   transition: font-size 0.5s ease-in-out;
 }
 
 p.trans:hover {
   font-size: 40px;
-  color: #007bff;
+  color: rgb(63, 3, 3);
 
 }
 
 .mailto {
   text-align: center;
   font-size: 30px;
-  color: #333;
+  color: #0e11e1;
 
   transition: font-size 0.5s ease-in-out;
 }

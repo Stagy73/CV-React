@@ -1,4 +1,4 @@
-const data = [
+ export const data = [
 
     {
         "job": "Intérimaire  JUBIL INTERIM  ",
@@ -49,8 +49,18 @@ const data = [
 
 
 
-    { "formation": "Formation Blue Stack (PHP, Front End) de Mai à Juillet 2021" },
-    { "formation": "Formation Développeur Web et Web Mobile de février à Décembre 2023" },
+   
+  {
+    "formation": "Formation Blue Stack (PHP, Front End) de Mai à Juillet 2021 ",
+    "project": "Projet de développement web"
+  },
+  {
+    "formation": "Formation Développeur Web et Web Mobile de février à Décembre 2023 avec WildCodeSchool",
+    "project": "Projet de développement mobile"
+  },
+
+
+
 
 
     { "12": "Anglais courant lu et parlé" },

@@ -10,9 +10,10 @@ function Experiences() {
         </div>
     ));
 
-    return (
+    return ( <div><h1 className='expeT'>Experience</h1>
         <div className="Experiences" >
             {jobList}
+        </div>
         </div>
 
     );
