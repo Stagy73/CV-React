@@ -371,5 +371,5 @@ p.trans:hover {
 }
 
 button:hover {
-  transform: translateX(10px);
+  transform: scale(3.1);
 }
