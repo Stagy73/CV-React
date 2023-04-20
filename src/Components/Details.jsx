@@ -18,6 +18,8 @@ function Details() {
             <a href="tel:0619650978">
             <div className="phone">06-19-65-09-78</div></a>
                 <div className="email">nils.mehlhorn.fr@gmail.com </div>
+                <div><a href="https://github.com/Stagy73"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt=""  width ="50px" height ="50px"/></a></div>
+                <div><a href="https://www.linkedin.com/in/nils-mehlhorn-51152823b/"><img src="https://www.1min30.com/wp-content/uploads/2017/08/LinkedIn-logo.jpg" alt=""  width ="50px" height ="50px"/></a></div>
                 
             
             <div className ="animation">
