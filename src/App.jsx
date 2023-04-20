@@ -5,6 +5,7 @@ import Competences from './Components/Competences.jsx'
 import Nuages from './Components/Nuages.jsx' 
 import Experiences from './Components/Experiences.jsx'
 import Footer from './Components/Footer.jsx'
+import Project from './Components/Project'
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <Details />
       <Competences />
        <Nuages /> 
+       <Project />
 
       <Experiences />
 
