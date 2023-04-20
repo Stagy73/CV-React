@@ -20,6 +20,7 @@ function Nuages() {
         </ul>
       </div>
     </div>
+    
   );
   
 }
